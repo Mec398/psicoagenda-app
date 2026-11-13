@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E1B4B" />
+      <stop offset="50%" stop-color="#312E81" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="96" y1="96" x2="416" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="psiGrad" x1="180" y1="200" x2="332" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo Redondeado de Icono App -->
+  <rect width="512" height="512" rx="116" fill="url(#bgGrad)" />
+
+  <!-- Sombra de la Agenda -->
+  <rect x="96" y="114" width="320" height="316" rx="44" fill="#020617" opacity="0.35" />
+
+  <!-- Cuerpo Blanco de la Agenda/Calendario -->
+  <rect x="96" y="104" width="320" height="312" rx="44" fill="#FFFFFF" />
+
+  <!-- Cabecera Superior de la Agenda -->
+  <path d="M96 148C96 123.699 115.699 104 140 104H372C396.301 104 416 123.699 416 148V184H96V148Z" fill="url(#headerGrad)" />
+
+  <!-- Anillos Superiores del Calendario -->
+  <rect x="164" y="76" width="24" height="56" rx="12" fill="#E2E8F0" />
+  <rect x="168" y="80" width="16" height="48" rx="8" fill="#FFFFFF" />
+  <rect x="324" y="76" width="24" height="56" rx="12" fill="#E2E8F0" />
+  <rect x="328" y="80" width="16" height="48" rx="8" fill="#FFFFFF" />
+
+  <!-- Puntos de días decorativos en la cabecera -->
+  <circle cx="152" cy="146" r="7" fill="#E0E7FF" opacity="0.85" />
+  <circle cx="182" cy="146" r="7" fill="#E0E7FF" opacity="0.85" />
+  <circle cx="212" cy="146" r="7" fill="#E0E7FF" opacity="0.85" />
+
+  <!-- Símbolo de Psicología (Psi Ψ) Estilizado en el Centro de la Agenda -->
+  <!-- Asta central vertical -->
+  <rect x="242" y="212" width="28" height="154" rx="14" fill="url(#psiGrad)" />
+  <!-- Brazos curvos de la Psi -->
+  <path d="M178 228C178 286 206 314 256 314C306 314 334 286 334 228" stroke="url(#psiGrad)" stroke-width="28" stroke-linecap="round" fill="none" />
+  <!-- Base horizontal de la Psi -->
+  <rect x="214" y="352" width="84" height="22" rx="11" fill="url(#psiGrad)" />
+
+  <!-- Insignia de Turno Confirmado (Check Esmeralda) -->
+  <circle cx="384" cy="384" r="46" fill="#10B981" stroke="#0F172A" stroke-width="10" />
+  <path d="M364 384L377 397L405 369" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
